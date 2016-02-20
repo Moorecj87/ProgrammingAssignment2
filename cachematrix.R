@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions will determine if the inverse of a matrix has already been determined.
+## If so, it will display the cached matrix, if not it will calculate the inverse.
 
-## Write a short comment describing this function
+## Function 1 creates the functions required to determine if the inverse has been 
+## created/stored
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -18,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Second function determines if the inverse is available, and displays/calculates it.
 
 cacheSolve <- function(x, ...) {
         m <- x$getinverse()
